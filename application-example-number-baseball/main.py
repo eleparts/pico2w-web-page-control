@@ -275,7 +275,7 @@ def serve(connection):
                 cursor = 1
                 try_count = 1
                 is_game_over = False
-                game_history = ["새 게임이 시작되었습니다! 숫자를 입력하고 제출을 누르세요."]
+                game_history = ["게임을 시작합니다! 숫자를 입력하고 제출을 누르세요."]
             
             # 핵심 AJAX 응답: 변경된 피코의 데이터들을 딕셔너리로 묶음
             response_data = {
